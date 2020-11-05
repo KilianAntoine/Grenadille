@@ -1,0 +1,185 @@
+.everything{
+margin: 0px;
+margin-top: 10px;
+}
+
+
+                                            /* Zone 1 Chat */
+
+.chatZone{
+
+    display: inline-block;
+    width: 50%;
+    height: 50vw;
+    padding: 0px;
+}
+
+.chatUp{
+    padding: 0px;
+    height: 10%;
+    width: auto;
+    background-color: #743BA0;
+    margin: 0px;
+    border-bottom:solid 1px #F1C421 ;
+    color: #F1C421;
+    text-align: center;
+}
+
+.chatMsg{
+    padding: 0px;
+    height: 83%;
+    background-color: #222222;
+    margin: 0px;
+}
+
+.chatEnterText{
+    padding: 0px;
+    height: 7%;
+    background-color: #743BA0;
+    margin: 0px;
+}
+
+.textArea{
+    width: 90%;
+    margin-top: 12px;
+    margin-left: 5px;
+    background-color: #F1C421;
+}
+
+
+.send{
+    display: inline-block;
+    border: none;
+    background: none;
+}
+
+.send img{
+    max-width: 24px;
+    max-height: 24px;
+    width:2vw;
+    height:2vw;
+
+}
+
+                                    /* Zone 2 Conversation */
+
+.conversation{
+
+    display: inline-block;
+    width: 25%;
+    height: 50vw;
+    background-color: #743BA0;
+    border-left: 1px solid #F1C421;
+    border-right: 1px solid #F1C421;
+}
+
+.conv{
+    height: 15%;
+    padding: 0px;
+    margin-bottom: 5px;
+    background-color: #F1C421;
+}
+
+                                    /* Zone 3 Profil */
+
+.profile{ 
+
+    display: inline-block;
+    width: 25%;
+    height: 50vw;
+    background-color: #743BA0;
+}
+
+.me{
+padding: 0px;
+height: 25%;
+}
+.icon{
+margin: auto;
+width:10vw;
+max-width: 128px;
+height: 10vw;
+max-height: 128px;
+}
+
+.infoBonus{
+    padding: 0px;
+    height: 35%;
+}
+
+.fact{
+    color : #F1C421;
+    text-align: center;
+    margin-top: 30%;
+    font-style: italic;
+}
+
+.btnLeft{
+    display: inline-block;
+    align-self: center;
+    margin-right: 5%;
+    margin-left: 15%;
+    border: none;
+    background: none;
+
+}
+
+.btnRight{
+    display: inline-block;
+    align-self: center;
+    border: none;
+    background: none;
+
+}
+
+.btnRight img, .btnLeft img{
+    width:5vw;
+    height: 5vw;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.friends{
+    padding: 0px;
+    height: 20%;
+    border: none;
+    background: none;
+}
+
+.parameter{
+    padding: 0px;
+    height: 20%;
+    border: none;
+    background: none;
+}
+
+                                    /* Truc Partout */
+
+.lign{
+    display: block;
+    margin: auto;
+    width: 75%;
+    border-top: 2px solid#F1C421;
+}
+
+p.msg {
+
+    width: max-content !important;
+    height: max-content !important;
+    color: #F1C421;
+    min-width: 10px;
+    max-width: 100%;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    margin-left: auto;
+    background-color: #743BA0;
+    border-radius: 40px 40px 0px 40px;
+    text-align: right;
+}
+
+.divMsg{
+    height: auto;
+    width: 100%;
+    display: block;
+}
